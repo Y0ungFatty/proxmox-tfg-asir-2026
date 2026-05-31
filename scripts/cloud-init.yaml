@@ -1,0 +1,15 @@
+#cloud-config
+hostname: Ubuntu-Server-Proyect-Intermodular
+users:
+  - name: matias
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    lock_passwd: false
+    passwd: $6$rounds=4096$sal$hashaquí
+packages:
+  - curl
+  - net-tools
+  - openssh-server
+runcmd:
+  - systemctl enable ssh
+  - systemctl start ssh
