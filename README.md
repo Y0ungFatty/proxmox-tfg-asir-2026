@@ -7,7 +7,7 @@ con una máquina virtual Ubuntu Server 24.04 gestionada desde interfaz web.
 - Matias Nicolas Florenttini Gomez
 - Santiago Gómez Vacas
 
-IES FP Summa · Ciclo ASIR · Curso 2024/2026
+IES FP Summa(LUMARA) · Ciclo ASIR · Curso 2024/2026
 
 ## Descripción
 El proyecto consiste en instalar y configurar Proxmox VE 9.1 dentro de una VM
